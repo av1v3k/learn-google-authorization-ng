@@ -1,0 +1,8 @@
+<p>photos works!</p>
+
+
+<ng-container *ngFor="let photo of data">
+    <div class='photo'>
+        <img alt="image of" [src]="photo.baseUrl" />
+    </div>
+</ng-container>

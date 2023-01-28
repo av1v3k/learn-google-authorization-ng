@@ -1,0 +1,12 @@
+<p>albums works!</p>
+
+
+<ng-container *ngFor="let album of data">
+    <a [routerLink]="['/photos', album.id]">
+        <div class='albums'>
+            <div>Title: {{album.title}}</div>
+            <img width=100 [src]="album.coverPhotoBaseUrl" alt='image' />
+            <div>Count: {{album.mediaItemsCount}}</div>
+        </div>
+    </a>
+</ng-container>
