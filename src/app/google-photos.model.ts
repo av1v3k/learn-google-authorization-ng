@@ -8,7 +8,7 @@ export const oauthconfig: AuthConfig = {
   redirectUri: window.location.origin,
 
   // Registered ClientID in the Authorization Server. No Client Secret Required
-  clientId: '24405187013-fuoqe2bjcbdvn60heiufc0njq2ht11f8.apps.googleusercontent.com',
+  clientId: '',
 
   // Logout URL is not in Discovery document. So, we need to include it for GOOGLE
   strictDiscoveryDocumentValidation: false,
